@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="1"
+            tests="1">
+
+  <testsuite name="single-trip-test"
+    errors="3" failures="1" hostname="" id="" package="single-trip-test" skipped="0"
+    tests="1" time="19.20" timestamp="">
+  
+    <testcase name="Single trip ticket booking test" classname="single-trip-test" time="19.20" assertions="1">  <failure message="waiting for calendar to be visible - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(3197ms)[0m">    at Page.selectDepartDateForSingleTrip (/home/bilal-a/Desktop/cleartrip-tests/page-objects/flightsSearchPage.js:110:14)
+    at Object.Single trip ticket booking test (/home/bilal-a/Desktop/cleartrip-tests/tests/single-trip-test.js:14:14)</failure>
+<system-out>[[ATTACHMENT|/home/bilal-a/Desktop/cleartrip-tests/tests_reports/screenshots/single-trip-test/Single-trip-ticket-booking-test_FAILED_Nov-23-2019-132344-GMT+0500-(Pakistan-Standard.png]]</system-out>
+    <failure message="    at Page.selectDepartDateForSingleTrip (/home/bilal-a/Desktop/cleartrip-tests/page-objects/flightsSearchPage.js:110:14)">    at Object.Single trip ticket booking test (/home/bilal-a/Desktop/cleartrip-tests/tests/single-trip-test.js:14:14)</failure>
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  NoSuchElementError: An error occurred while running .setValue() command on &lt;Element [name=@origin]&gt;:[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:86:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .setValue() command on &lt;Element [name=@destination]&gt;:[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:86:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;Element [name=@departDateField]&gt;:[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:86:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;Element [name=@roundTripOption]&gt;:[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:86:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .setValue() command on &lt;Element [name=@origin]&gt;:[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:86:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .setValue() command on &lt;Element [name=@destination]&gt;:[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:86:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;Element [name=@departDateField]&gt;:[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:86:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
